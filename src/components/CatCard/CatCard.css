@@ -1,0 +1,29 @@
+.cat:hover {
+  transform: scale(1.13);
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.24), 0px 9px 18px rgba(0, 0, 0, 0.18);
+  
+}
+
+.cardBottom {
+  height: 94px;
+  padding-top: 147px;
+  
+}
+
+.addToFavoriteBorder {
+  width: 48px;
+  height: 48px;
+  float: right;
+  margin-right: 9px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.addToFavorite {
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.cat:hover .addToFavorite {
+  visibility: visible;
+}

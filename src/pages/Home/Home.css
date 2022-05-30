@@ -1,0 +1,36 @@
+.home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
+}
+.cats {
+  
+  display: flex;
+  flex-wrap: wrap;
+ 
+  width: 1445px;
+  padding: 62px 0 0 50px;
+  gap: 48px;
+}
+
+.cat{
+  width: 225px;
+  height: 225px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.loadMore{
+  text-align: center;
+}
+
+
+
+
